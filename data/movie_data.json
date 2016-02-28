@@ -1,0 +1,57 @@
+[{
+	"title": "Timbuktu",
+	"story": "An ancient African city of Timbuktu gets taken over by religious fundamentalists who start dictating how the locals should now live.",
+	"year": "2015",
+	"cast": ["Ibrahim Ahmed", "Toulou Kiki", "Layla Walet Mohamed"],
+	"director": "Abderrahmane Sissako",
+	"poster_url": "http://medias.unifrance.org/medias/22/5/132374/format_page/media.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=V4hMg0sUD44",
+	"rating": "PG-13"
+}, {
+	"title": "Carol",
+	"story": "A 1950s Manhattan department store encounter develops into a complications-causing and soul-search-provoking love between the clerk and her customer.",
+	"year": "2015",
+	"cast": ["Cate Blanchett", "Rooney Mara"],
+	"director": "Todd Haynesher ",
+	"poster_url": "http://www.cate-blanchett.com/pictures/albums/films/2015%20Carol/Poster/004.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=kECQwBOkltY",
+	"rating": "R"
+}, {
+	"title": "The Imitation Game",
+	"story": "Life of Alan Turing and his work to build a reprogammable machine that couls break Nazi Enigma cypher machine code.",
+	"year": "2014",
+	"cast": ["Benedict Cumberbatch", "Keira Knightley"],
+	"director": "Morten Tyldum",
+	"poster_url": "http://img.goldposter.com/2015/04/The-Imitation-Game_poster_goldposter_com_4.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=S5CjKEFb-sM",
+	"rating": "PG-13"
+}, {
+	"title": "Timbuktu",
+	"story": "An ancient African city of Timbuktu gets taken over by religious fundamentalists who start dictating how the locals should now live.",
+	"year": "2015",
+	"cast": ["Ibrahim Ahmed", "Toulou Kiki", "Layla Walet Mohamed"],
+	"director": "Abderrahmane Sissako",
+	"poster_url": "http://medias.unifrance.org/medias/22/5/132374/format_page/media.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=V4hMg0sUD44",
+	"rating": "PG-13"
+}, {
+	"title": "Carol",
+	"story": "Set in the 1950s Manhattan, an encounter of a department store clerk and her wealthy customer shopping for Christmas presents develops into a complications-causing and soul-search-provoking love between the two women.",
+	"year": "2015",
+	"cast": ["Cate Blanchett", "Rooney Mara"],
+	"director": "Todd Haynesher ",
+	"poster_url": "http://www.cate-blanchett.com/pictures/albums/films/2015%20Carol/Poster/004.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=kECQwBOkltY",
+	"rating": "R"
+}, {
+	"title": "The Imitation Game",
+	"story": "Life of Alan Turing and his work to break Nazi codes, including the  Enigma machine",
+	"year": "2014",
+	"cast": ["Benedict Cumberbatch", "Keira Knightley"],
+	"director": "Morten Tyldum",
+	"poster_url": "http://img.goldposter.com/2015/04/The-Imitation-Game_poster_goldposter_com_4.jpg",
+	"trailer_url": "https://www.youtube.com/watch?v=S5CjKEFb-sM",
+	"rating": "PG-13"
+}]
+
+
