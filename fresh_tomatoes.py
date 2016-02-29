@@ -66,10 +66,11 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+<div class="col-md-6 col-lg-4 movie-tile text-center">
     <img src="{poster_image_url}"  alt="{movie_title} poster">
     <h2>{movie_title}</h2>
     <p>{story}</p>
+    <button id="show-video" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer"><span class="glyphicon glyphicon-play-circle"></span> Play</button>
 </div>
 
 '''
