@@ -1,3 +1,14 @@
+/*
+styles/custom.css
+Based on default styling that came with the original fresh_tomatoes.py 
+Edits:
+	Moved out of the inline style in the html <head> 
+	Added styling for the span that now contains video close glyphicon
+	Change colors and layout of movie tiles
+	Added play trailer button
+*/
+
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -10,43 +21,54 @@ html, body {
   margin-bottom: 0;
 }
 
-
 .album {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
 }
 
-.movie-tile {
-    margin-top: 20px;
-   	margin-bottom: 2rem;
-    padding-top: 20px;
-    float: left;
-	width: 30%;
+.movie-tile{
+	padding: 10px;
 	height: 500px;
-	border: 1px solid #f7f7f7;
 }
-.movie-tile:hover {
-    background-color: #EEE;
-    border-color: #333;
-    cursor: pointer;
-}
-.movie-tile > img {
-  margin-bottom: .75rem;
-  width: 200px;
 
+.inner-tile {
+    background-color: #eee;
+    border-color: #999;
+    padding: 10px;
+    height: 100%;
 }
+
+.inner-tile:hover {
+    border-color: #333;
+}
+
+.inner-tile img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+}
+
+.inner-tile h2{
+	margin:-10px;
+	margin-bottom: 10px;
+	padding: 0.5em;
+	background-color: #ddd;
+	color:#aaa;
+}
+
 #trailer .modal-dialog {
     margin-top: 200px;
     width: 640px;
     height: 480px;
 }
+
 .hanging-close {
     position: absolute;
     top: -21px;
     right: -21px;
     z-index: 9001;
 }
+
 #trailer-video {
     width: 100%;
     height: 100%;
@@ -66,12 +88,10 @@ html, body {
     background-color: white;
 }
 
-
-/*added*/
 .close-video {
-font-size: 2em;
-color: white;
-cursor: pointer;
-z-index:1000
+	font-size: 2em;
+	color: white;
+	cursor: pointer;
+	z-index:1000
 }
 

@@ -21,7 +21,6 @@ main_page_head = '''
         <!-- Custom styles for this template -->
         <link href="styles/normalize.css" rel="stylesheet">
         <link href="styles/album.css" rel="stylesheet">
-            <link  rel="stylesheet"  href="styles/custom.css" >
         <script src="js/default.js"></script>
     </head>
 '''
@@ -66,11 +65,21 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center">
-    <img src="{poster_image_url}"  alt="{movie_title} poster">
-    <h2>{movie_title}</h2>
-    <p>{story}</p>
-    <button id="show-video" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer"><span class="glyphicon glyphicon-play-circle"></span> Play</button>
+<div class="col-xs-12 col-md-6   movie-tile " data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+	<div class="inner-tile">
+		<h2 class="text-center">{movie_title}</h2>
+		<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<img class="thumbnail" src="{poster_image_url}"  alt="{movie_title} poster">
+			</div>
+			<div class="col-xs-12 col-md-6">
+
+				<p>{story}</p>
+				<button id="show-details"><span class="glyphicon glyphicon-info-sign"></span> More info</button>
+				<button id="show-video" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer"><span class="glyphicon glyphicon-play-circle"></span> Play</button>
+			</div>
+		</div>
+	</div>
 </div>
 
 '''
