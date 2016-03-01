@@ -14,12 +14,10 @@ If you do not have Internet access, the page will not render correctly.
 1) Clone the Git project or extract the movies.tar.gz archive.
 
 2) Change into the 'movies' directory (or the directory that contains the .py files) and run the e_center.py file, for example:
-
-    ```sh
+    ```
     $ python e_center.py
     ```
-
-    This will create an fresh_tomatoes.html page and open it in your default web browser.
+This will create an fresh_tomatoes.html page and open it in your default web browser.
 
 ### Usage
 
