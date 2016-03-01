@@ -3,7 +3,7 @@ import os
 import re
 
 
-# Styles and scripting for the page
+# Page head; styles and scripting for the page
 main_page_head = '''
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +26,7 @@ main_page_head = '''
 '''
 
 
-# The main page layout and title bar
+# The main page layout
 main_page_content = '''
     <body>
 
