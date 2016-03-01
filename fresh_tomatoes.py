@@ -17,13 +17,12 @@ main_page_head = '''
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-
         <!-- Custom styles for this template -->
         <link href="styles/normalize.css" rel="stylesheet">
         <link href="styles/album.css" rel="stylesheet">
         <script src="js/default.js"></script>
     </head>
-'''
+'''    # NOQA
 
 
 # The main page layout
@@ -32,11 +31,14 @@ main_page_content = '''
 
         <!-- Trailer Video Modal -->
         <div class="modal" id="trailer">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <span class="hanging-close close-video" data-dismiss="modal" aria-label="Close video">
-                <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
-              </span>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <span class="hanging-close close-video"
+                      data-dismiss="modal"
+                      aria-label="Close video">
+                  <span class="glyphicon glyphicon-remove-circle"
+                        aria-hidden="true"></span>
+                </span>
               <div class="scale-media" id="trailer-video-container">
               </div>
             </div>
@@ -66,18 +68,25 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-xs-12 col-md-6   movie-tile ">
-	<div class="inner-tile">
-		<h2 class="text-center">{movie_title}</h2>
-		<div class="row">
-			<div class="col-xs-12 col-md-6">
-				<img class="thumbnail" src="{poster_image_url}"  alt="{movie_title} poster">
-			</div>
-			<div class="col-xs-12 col-md-6">
-				<p>{story}</p>
-				<button id="show-video" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer"><span class="glyphicon glyphicon-play-circle"></span> Play</button>
-			</div>
-		</div>
-	</div>
+    <div class="inner-tile">
+        <h2 class="text-center">{movie_title}</h2>
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <img class="thumbnail"
+                     src="{poster_image_url}"
+                     alt="{movie_title} poster">
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <p>{story}</p>
+                <button id="show-video"
+                        data-trailer-youtube-id="{trailer_youtube_id}"
+                        data-toggle="modal"
+                        data-target="#trailer">
+                    <span class="glyphicon glyphicon-play-circle"></span> Play
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 
 '''
